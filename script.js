@@ -49,7 +49,7 @@ container.addEventListener('click', (event) => {
     }
 
     // flip state to 'right'
-    if (isButton && (event.target.textContent === '+'
+    if (isButton && state === 'left' && (event.target.textContent === '+'
         || event.target.textContent === '-'
         || event.target.textContent === '*'
         || event.target.textContent === '/')) {
@@ -68,6 +68,10 @@ container.addEventListener('click', (event) => {
 
     if (isButton && event.target.textContent === '=') {
         display.textContent = operate(firstNumberArr.join(''), secondNumberArr.join(''), '-');
+        firstNumberArr = [display.textContent.toString()];
+        console.log(firstNumberArr);
+        secondNumberArr = [];
+        state = 'left';
     }
 
 
