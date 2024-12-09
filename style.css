@@ -13,8 +13,23 @@ div {
 button {
     margin: 0;
     padding: 20px;
+    height: 100px;
+    width: 100px;
     font-size: xx-large;
 
+}
 
+#number0 {
+    width: 200px;
 
 }
+
+#displayScreen {
+    width: 400px;
+
+}
+
+.firstRow button, .secondRow button, .thirdRow button, .fourthRow button {
+    background-color: lightblue;
+}
+
