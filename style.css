@@ -4,14 +4,7 @@ body {
 
 }
 
-span {
-    background-color: black;
-    border: 10px solid ;
-    border-radius: 10px;
-
-}
-
-div {
+div .display, div .firstRow, div .secondRow, div .thirdRow, div .fourthRow, div .extraRow  {
     display: flex;
     justify-content: center;
 
