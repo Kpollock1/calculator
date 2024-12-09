@@ -4,6 +4,13 @@ body {
 
 }
 
+span {
+    background-color: black;
+    border: 10px solid ;
+    border-radius: 10px;
+
+}
+
 div {
     display: flex;
     justify-content: center;
@@ -11,15 +18,16 @@ div {
 }
 
 button {
-    margin: 0;
-    padding: 20px;
+    margin: 1px;
     height: 100px;
     width: 100px;
+    border-radius: 8px;
     font-size: xx-large;
+    border: none;
 
 }
 
-#number0 {
+#zero {
     width: 200px;
 
 }
@@ -30,6 +38,13 @@ button {
 }
 
 .firstRow button, .secondRow button, .thirdRow button, .fourthRow button {
-    background-color: lightblue;
+    background-color: darkslateblue;
 }
 
+#AC, #percent, #plusSlashMinus, #slash {
+    background-color: royalblue;
+}
+
+#slash, #star, #minus, #plus, #equals {
+    background-color: orange;
+}
